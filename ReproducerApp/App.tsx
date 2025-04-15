@@ -32,6 +32,7 @@ function Section({children, title}: SectionProps): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
+      <TextInput returnKeyType="one"/>
       <Text
         style={[
           styles.sectionTitle,
